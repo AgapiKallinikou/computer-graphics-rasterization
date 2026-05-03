@@ -1,2 +1,43 @@
-# computer-graphics-rasterization
-A custom 2D graphics rendering pipeline in MATLAB. Implements low-level rasterization algorithms (Bresenham, Kappel) from scratch for pixel-by-pixel primitive generation and typography.
+# Computer Graphics: Low-Level Rasterization & Typography
+
+This repository contains a from-scratch implementation of fundamental 2D rasterization algorithms in MATLAB. Instead of relying on high-level plotting utilities, this project simulates a low-level graphics rendering pipeline by drawing vector primitives pixel-by-pixel.
+
+## 📌 Project Highlights
+
+* **Pixel-Level Control:** Implemented a custom `draw_pixel` engine using 1x1 filled polygons to accurately simulate screen-space rasterization.
+* **Bresenham's Algorithms:** Highly efficient implementations for drawing lines and circles using integer arithmetic, bypassing the need for floating-point operations.
+* **Kappel's Ellipse Algorithm:** Mathematical calculation and rendering of elliptical curves.
+* **Algorithmic Shape Manipulation:** Modified standard algorithms to render specific geometric fractions (e.g., bottom-half circles for the letter "U", right-half ellipses for the letter "Ρ").
+
+---
+
+## 📂 Repository Structure
+
+### `1_Typography_Projects/`
+The main execution scripts that combine primitives to form complex shapes and letters.
+* **`main_UOA.m`**: Renders the letters "UOA" using a combination of straight lines, concentric circles, and semi-circles.
+* **`main_GRAFIKA.m`**: Renders the Greek word "ΓΡΑΦΙΚΑ" utilizing complex curves, including Kappel's right-half ellipse.
+
+### `2_Rasterization_Algorithms/`
+The core mathematical engines powering the rendering.
+* **`draw_pixel.m`**: The base rendering function that maps a continuous (x, y) coordinate to a discrete 1x1 graphical pixel.
+* **`bresenham_line.m`**: Bresenham's Line Generation Algorithm.
+* **`bresenham_circle.m`**: Bresenham's Circle Generation Algorithm.
+* **`bresenham_circle_bottom.m`**: Modified circle algorithm restricted to $y \le y_c$.
+* **`kappel_ellipse_right.m`**: Kappel's algorithm optimized for right-side elliptical rendering.
+
+---
+
+## 🛠️ Tech Stack & Concepts
+
+* **Language:** MATLAB
+* **Core Concepts:** Rasterization, Primitive Generation, Integer Arithmetic Modeling, Coordinate Geometry, Computer Graphics Fundamentals.
+
+---
+
+## 🎓 Academic Context & Author
+
+These rasterization algorithms and rendering scripts were developed as part of the Computer Graphics coursework at the **National and Kapodistrian University of Athens (NKUA)**.
+
+* **Author:** Agapi Kallinikou
+* **Academic Year:** 2025 - 2026
