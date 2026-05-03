@@ -8,6 +8,7 @@ This repository contains a from-scratch implementation of fundamental 2D rasteri
 * **Bresenham's Algorithms:** Highly efficient implementations for drawing lines and circles using integer arithmetic, bypassing the need for floating-point operations.
 * **Kappel's Ellipse Algorithm:** Mathematical calculation and rendering of elliptical curves.
 * **Algorithmic Shape Manipulation:** Modified standard algorithms to render specific geometric fractions (e.g., bottom-half circles for the letter "U", right-half ellipses for the letter "Ρ").
+* **2D Affine Transformations:** Utilization of homogeneous coordinates and matrix multiplication to apply complex spatial transformations (e.g., scaling relative to arbitrary pivot points).
 * **Complexity Analysis:** Includes deep-dive documentation on algorithm efficiency, time complexity O(a+b), and region-based rasterization logic.
 
 ---
@@ -41,7 +42,7 @@ Implementation of 2D spatial transformations using Homogeneous Coordinates.
 ## 🛠️ Tech Stack & Concepts
 
 * **Language:** MATLAB
-* **Core Concepts:** Rasterization, Primitive Generation, Integer Arithmetic Modeling, Coordinate Geometry, Algorithm Complexity, Computer Graphics Fundamentals.
+* **Core Concepts:** Rasterization, Primitive Generation, Integer Arithmetic Modeling, Coordinate Geometry, Affine Transformations, Homogeneous Coordinates, Algorithm Complexity, Computer Graphics Fundamentals.
 
 ---
 
