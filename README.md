@@ -32,6 +32,10 @@ A dedicated module focusing on the mathematical analysis and implementation of t
 * **`kappel_ellipse.m`**: The pure algorithm implementation demonstrating 4-way symmetry and decision parameter evaluation.
 * **`README.md`**: Detailed theoretical documentation, complexity analysis, and explanation of region-based curve rasterization.
 
+### `4_Affine_Transformations/`
+Implementation of 2D spatial transformations using Homogeneous Coordinates.
+* **`composite_scaling.m`**: Script demonstrating how to scale a polygon relative to an arbitrary pivot point by combining Translation and Scaling matrices into a single composite matrix.
+
 ---
 
 ## 🛠️ Tech Stack & Concepts
