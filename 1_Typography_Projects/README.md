@@ -23,7 +23,7 @@ A complete word rendering showcasing:
 ## 🖼️ Visual Results
 
 ### Part A: UOA Typography
-![UOA Result](./1_Typography_Projects/UOA_result.png)
+![UOA Result](./UOA_result.png)
 
 ### Part B: Greek Word "ΓΡΑΦΙΚΑ"
-![GRAFIKA Result](./1_Typography_Projects/GRAFIKA_result.png)
+![GRAFIKA Result](./GRAFIKA_result.png)
