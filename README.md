@@ -42,6 +42,9 @@ Advanced module showcasing 3D geometry generation from parametric curves.
 * **`Bezier.m`**: The core parametric engine evaluating Bernstein polynomials to generate smooth curves.
 * **`rocket_full.m`**: Master script that builds a 2D aerodynamic rocket hull, sweeps it $360^\circ$ around the vertical axis to create a 3D surface, and discretizes it into a 3D point cloud via incremental rotations.
 
+### `6_Cubic_Splines_Interpolation/` 
+Piecewise polynomial reconstruction module for continuous 2D silhouettes.
+* **`Cubic_Splines.m`**: Computes and fits continuous cubic polynomials across independent boundary node segments (Body, Head, Snout), extracting precise coefficients via `unmkpp`.
 ---
 
 ## 🛠️ Tech Stack & Concepts
@@ -50,9 +53,10 @@ Advanced module showcasing 3D geometry generation from parametric curves.
 * **Core Concepts:** * Rasterization & Primitive Generation (Bresenham, Kappel)
   * Integer Arithmetic Modeling & Coordinate Geometry
   * 2D Affine Transformations & Homogeneous Coordinates
+  * Piecewise Interpolation & Cubic Splines ($C^2$ Continuity)
   * Parametric Curves (Bézier, Bernstein Polynomials)
   * 3D Surfaces of Revolution & Point Cloud Discretization
-  * Algorithmic Complexity analysis
+  * Algorithmic Complexity Analysis
 
 ---
 
