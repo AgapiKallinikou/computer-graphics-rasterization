@@ -37,12 +37,22 @@ A dedicated module focusing on the mathematical analysis and implementation of t
 Implementation of 2D spatial transformations using Homogeneous Coordinates.
 * **`composite_scaling.m`**: Script demonstrating how to scale a polygon relative to an arbitrary pivot point by combining Translation and Scaling matrices into a single composite matrix.
 
+### `5_Bezier_Surfaces_Rocket/`
+Advanced module showcasing 3D geometry generation from parametric curves.
+* **`Bezier.m`**: The core parametric engine evaluating Bernstein polynomials to generate smooth curves.
+* **`rocket_full.m`**: Master script that builds a 2D aerodynamic rocket hull, sweeps it $360^\circ$ around the vertical axis to create a 3D surface, and discretizes it into a 3D point cloud via incremental rotations.
+
 ---
 
 ## 🛠️ Tech Stack & Concepts
 
 * **Language:** MATLAB
-* **Core Concepts:** Rasterization, Primitive Generation, Integer Arithmetic Modeling, Coordinate Geometry, Affine Transformations, Homogeneous Coordinates, Algorithm Complexity, Computer Graphics Fundamentals.
+* **Core Concepts:** * Rasterization & Primitive Generation (Bresenham, Kappel)
+  * Integer Arithmetic Modeling & Coordinate Geometry
+  * 2D Affine Transformations & Homogeneous Coordinates
+  * Parametric Curves (Bézier, Bernstein Polynomials)
+  * 3D Surfaces of Revolution & Point Cloud Discretization
+  * Algorithmic Complexity analysis
 
 ---
 
